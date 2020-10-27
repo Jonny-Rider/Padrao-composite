@@ -25,13 +25,13 @@ Exemplo reais do padrão de composite podem ser:
 
 ![alt text](https://howtodoinjava.com/wp-content/uploads/2015/10/composite-design-pattern.png)
 
-Componente: declara a interface para objetos na composição, implementa o comportamento padrão para a interface comum a todas as classes, conforme apropriado, declara uma interface para acessar e gerenciar seus componentes filhos.
+Component: declara a interface para objetos na composição, implementa o comportamento padrão para a interface comum a todas as classes, conforme apropriado, declara uma interface para acessar e gerenciar seus componentes filhos.
 
-Folha: Representa objetos folha na composição. Uma folha não tem filhos, define o comportamento de objetos primitivos na composição.
+Leaf: Representa objetos folha na composição. Uma folha não tem filhos, define o comportamento de objetos primitivos na composição.
 
-Composto: Define o comportamento de componentes com filhos, armazena componentes filhos, implementa operações relacionadas a filhos na interface do Component.
+Composite: Define o comportamento de componentes com filhos, armazena componentes filhos, implementa operações relacionadas a filhos na interface do Component.
 
-Cliente: Manipula objetos na composição por meio da interface do componente
+Client: Manipula objetos na composição por meio da interface do componente
 
 
 
